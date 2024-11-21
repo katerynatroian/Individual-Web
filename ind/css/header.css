@@ -1,0 +1,181 @@
+/* хедери для всіх сторінок */
+.header {
+    color: white; 
+    max-width: 1440px;
+}
+.header_main {
+    background-image: url("../img/header/main.png");
+}
+.header_services {
+    background-image: url("../img/header/services.png");
+}
+.header_history {
+    background-image: url("../img/header/history.png");
+    
+}
+.header_team {
+    background-image: url("../img/header/team.png");
+}
+.container_head {
+    max-width: 1380px;
+    padding: 15px;
+    margin: 0 auto; 
+    text-align: center;
+}
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.a_header_main {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'UAF Memory', sans-serif;
+}
+.header_nav-list {
+    display: flex;
+    column-gap: 40px;
+    font-size: 18px;
+}
+.header_nav-item {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: var(--font-add);
+    a {
+        color: white;
+    }
+}
+.header_nav-item a:hover {
+    color: #E965A3;
+}
+.search-btn {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background: white;
+    opacity: 0.8; 
+}
+.search-input {
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: 'UAF Memory', sans-serif;
+}
+.search-icon {
+    color: black;
+    margin-right: 5px;
+}
+.header_body {
+    max-width: var(--width);
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_body-h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: 'UAF Memory', sans-serif;
+}
+.header_main_bottom {
+    margin-bottom: 30px;
+}
+.header_services_bottom {
+    margin-bottom: 200px;
+}
+.header_body-btn {
+    text-align: center;
+}
+.header_body-button {
+    margin: 0 auto;  
+    color: var(--color-black);
+    padding: 8px 35px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: var(--color-pink);
+    border-radius: 20px;
+    margin-bottom: 350px;
+    letter-spacing: 5px;
+    font-family: 'UAF Memory', sans-serif;
+    a {
+        color: var(--color-black);
+    }
+}
+.header_body-button:hover {
+    background-color: #A81B5D;
+    transition: 0.4s;
+}
+.header_history_bottom {
+    margin-bottom: 110px;
+}
+
+/* burger menu */
+.header .header_top .burger {
+    cursor: pointer;
+    display: none;
+}
+.header .header_top .burger span {
+    display: block;
+    background-color: white;
+    margin: 12px 5px;
+    width: 80px;
+    height: 8px;
+    transition: all 0.3s;
+}
+.header .header_top .burger.active span:nth-child(1) {
+    transform: translateY(20px) rotate(45deg);}
+
+.header .header_top .burger.active span:nth-child(2) {
+    opacity: 0;
+}
+.header .header_top .burger.active span:nth-child(3) {
+    transform: translateY(-20px) rotate(-45deg);
+}
+
+@media screen and (max-width: 1100px) {
+    .search-btn {
+        display: none;
+    }
+    .header .header_top .burger {
+        display: block;
+    }
+    .header_nav-list {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .header_nav-item {
+        margin-bottom: 50px;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .header .header_top .header_nav {
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        display: flex;
+        text-align: center;
+    }
+    .burger_nav_den_pages {
+        margin-top: -80px;
+        background-image: url("../img/header/main.png");
+    }
+    .header_nav {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .header .header_top .header_nav.active {
+        left: 0;
+    } 
+}
+
+

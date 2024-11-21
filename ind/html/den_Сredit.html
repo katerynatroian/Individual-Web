@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Credit</title>
+    <link rel="icon" href="../img/main/cute_leprechaum.png" type="png">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="../css/den_Dep_Inv_Pro_Cre.css" />
+</head>
+<body>
+    <header class="header header_main">
+        <div class="container_head">
+            <section class="header_top">
+                <a href="main_page.html" class="a_header_main">БАНК<br>ЛЕПРЕКОНІВ</a>
+                <nav class="header_nav burger_nav_den_pages">
+                    <ul class="header_nav-list">
+                        <li class="header_nav-item">
+                            <a href="services_page.html">Послуги</a>
+                        </li>
+                        <li class="header_nav-item">
+                            <a href="history_page.html">Про нас</a>
+                        </li>
+                        <li class="header_nav-item">
+                            <a href="team_page.html">Наша команда</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>  
+        </div>
+    </header>
+    <main class="main_credit">
+        <h1 class="main_credit-h1">ВЗЯТИ МАГІЧНИЙ КРЕДИТ</h1>
+        <form class="from_credit" id="creditForm">
+            <div class="from_credit_div">
+                <label for="name">Введіть ПІБ</label>
+                <input class="input_name" type="text" id="name" name="name" required>
+            </div>
+            <div class="from_credit_div">
+                <label for="job">Вкажіть місце<br>роботи</label>
+                <input class="input_job" type="text" id="job" name="job" required>
+            </div>
+            <div class="from_credit_div">
+                <label for="coins">Кількість монет, які<br>отримуєте за місяць</label>
+                <input class="input_coins" type="number" id="coins" name="coins" required>
+            </div>
+            <div class="from_credit_div">
+                <label for="savings">Додаткові заощадження</label>
+                <input class="input_savings" type="number" id="savings" name="savings" required>
+            </div>
+            <div class="from_credit_div">
+                <label for="realty">Нерухомість у клеверах</label>
+                <input class="input_realty" type="number" id="realty" name="realty" required>
+            </div>
+            <div class="from_credit_div">
+                <label for="box">Кількість скринь з монетами,<br>які бажаєте взяти</label>
+                <input class="input_box" type="number" id="box" name="box" required>
+            </div>
+            <div class="from_credit_div">
+                <label for="comeback">Повернення в казну</label>
+                <input class="input_comeback" type="date" id="comeback" name="comeback" required>
+            </div>
+
+            <button class="button_rectangle h2_main_left CreditButton" id="checkCreditButton" type="button">Обрахувати магічний<br>кредит</button>
+        </form>
+
+        <div class="results" id="CreditResult"></div>
+    </main>
+    <footer class="footer">
+        <div class="footer_all">
+            <div class="footer_info">
+                <p class="p_footer">Зв’яжіться з Банком Лепреконів – ми завжди поруч!</p>
+                <div class="info_footer">
+                    <img src="../img/footer/address.png" alt="address">
+                    <p class="footer_text">Адреса: 123 Вулиця Лепреконів, Зелені Пагорби, Ірландія (вхід через магічний портал біля великого дуба)</p>
+                </div>
+                <div class="info_footer">
+                    <img src="../img/footer/phone.png" alt="phone">
+                    <p class="footer_text">Телефон: +353 1 800-LEPRECHAUN</p>
+                </div>
+                <div class="info_footer">
+                    <img src="../img/footer/mail.png" alt="phone">
+                    <p class="footer_text">Електрона пошта: <a href="mailto:magic@goldbank.lep">magic@goldbank.lep</a> </p>
+                </div>
+                <div class="info_footer">
+                    <img src="../img/footer/chat.png" alt="phone">
+                    <p class="footer_text">Чарівний зв'язок: Скористайтеся чарівним свитком в будь-якому лісовому відділені або через нашого партнера - гоблінського поштового голуба</p>
+                </div>
+                <div class="info_footer">
+                    <a href="https://www.instagram.com/kateryna.troian/profilecard/?igsh=MWdqMzljemRpNW56bA=="><img class="socialmedia" src="../img/footer/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/vika.martyniuk_/profilecard/?igsh=MWgzaDZiMTZkcmlxeQ=="><img class="socialmedia" src="../img/footer/twitter.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com/dengavatyuk/profilecard/?igsh=ejRhYzE5NXQxNmU="><img class="socialmedia" src="../img/footer/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+            <img class="img_footer" src="../img/footer/leprechaun.png" alt="leprechaun">
+        </div>
+    </footer>
+    <script src="../js/den_Credit.js"></script>
+    <script src="../js/burger-btn.js"></script>
+</body>
+</html>

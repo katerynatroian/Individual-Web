@@ -1,0 +1,303 @@
+@media screen and (max-width: 1365px) {
+     .words_from_leprechaum {
+          margin-top: 0px;
+     }
+     .leprechaum_talking {
+          margin-top: -100px;
+     }
+     .leprechaum_words {
+          max-width: 67%
+     }
+     .lep_team {
+          width: 85%;
+          height: auto;
+     }
+     .team_text_right {
+          padding-left: 300px;
+     }
+     .team_text_left {
+          padding-right: 340px;
+     }
+}
+
+
+@media screen and (max-width: 1230px) {
+     .main_h1 {
+          font-size: 50px;
+     }
+    .rectangle {
+          width: 770px; 
+          height: 258px; 
+     } 
+     .h2_main {
+          font-size: 40px;
+     }
+     .circle {
+          width: 290px; 
+          height: 290px; 
+     }
+     .img_adapt {
+          width: 70%;
+          height: auto;
+     }
+     .img_main {
+          width: 70%;
+          height: auto;
+     }
+     .button_rectangle {
+          font-size: 28px;
+     }
+     .p_footer {
+          font-size: 28px;
+     }
+     .footer_text {
+          font-size: 16px;
+     }
+     .img_footer {
+          width: 85%;
+          height: auto;
+     }
+   /* ----------- */
+     .words_from_leprechaum {
+          margin-top: 0px;
+     }
+     /* ---------- */
+     .bg-shape {
+          width: 500px;
+          height: 500px;
+     }
+}
+
+
+@media screen and (max-width: 1100px) {
+     .bg-shape {
+          width: 400px;
+          height: 400px;
+          opacity: .6;
+     }
+     .pink_one {
+          margin-top: 350px;
+     }
+     .team_text_right {
+          padding-left: 250px;
+     }
+     .h1_pink_team {
+          font-size: 40px;
+     }
+     .team_text_left {
+          padding-right: 300px;
+     }
+     .words_from_leprechaum {
+          font-size: 25px;
+     }
+
+
+     /* humburger */
+}
+
+
+@media screen and (max-width: 1024px) {
+     .header_body-h1 {
+          font-size: 70px;
+     }
+     .h1_black_services {
+          font-size: 40px;
+     }
+     .h2_services {
+          font-size: 28px;
+     }
+     .h2_team {
+          font-size: 28px;
+     }
+     .circle-btn {
+          width: 150px;
+          height: 150px;
+     }
+     .arrow_adapt {
+          width: 30%;
+          height: auto;
+     }
+     .bg-shape {
+          width: 340px;
+          height: 340px;
+          opacity: .6;
+     }
+     .team_text_right {
+          padding-left: 200px;
+     }
+     .stars_history_right {
+          margin-left: 62%;
+          margin-top: 450px;
+     }
+     .leprechaum_talking {
+          width: 40%;
+          height: auto;
+     }
+}
+
+@media screen and (max-width: 1010px) {
+     .rectangle {
+          width: 560px; 
+          height: 294px; 
+     } 
+     .main_page_main_centre {
+          margin-left: -50px;
+     }
+     .main_adapt_just-cont-col-rev {
+          display: flex;
+          flex-direction: column-reverse;
+     }
+     .main_adapt_just-cont-col {
+          display: flex;
+          flex-direction: column;
+     }
+     .h2_main_left {
+          margin-left: 0px;
+          font-size: 30px;
+     }
+     .h2_main_right {
+          margin-left: 0px;
+          font-size: 30px;
+     }
+     .h2_main {
+          margin-top: 80px;
+     }
+     .rectangle {
+          width: 620px; 
+          height: 258px; 
+          margin-top: -70px;
+     }
+     .c_right {
+          margin-left: 0px;
+     }
+     .r_left {
+          margin-left: 0px;
+     }
+     .c_left {
+          margin-left: 0px;
+     }
+     .r_right {
+          margin-left: 0px;
+     }
+     .header_body-button {
+          font-size: 28px;
+     }
+}
+
+@media screen and (max-width: 930px) {
+     .lep_top_left {
+          margin-left: -45%;
+     }
+     .text_right_team {
+          margin-right: 10px;
+     }
+     .team_text_right {
+          padding-right: 20px;
+     }
+     .team_text_left {
+          padding-left: 20px;
+          padding-right: 250px;
+     }
+     .stars_history_right {
+          margin-left: 58%;
+          margin-top: 500px;
+     }
+     .c_history {
+          width: 50%;
+          height: auto;
+     }
+     .leprechaum_words_in_frame {
+          margin-right: 30px;
+     }
+     .leprechaum_talking {
+          margin-top: -50px;
+     }
+}
+
+@media screen and (max-width: 850px) {
+     .header_body-h1 {
+          font-size: 50px;
+     }
+     .stars_history_right {
+          margin-left: 51%;
+          margin-top: 650px;
+     }
+     .h1_black_services {
+          font-size: 30px;
+     }
+     .h2_services {
+          font-size: 24px;
+     }
+     .img_adapt {
+          width: 60%;
+          height: auto;
+     }
+     .circle {
+          width: 250px; 
+          height: 250px; 
+     }
+     .r_bottom {
+          margin-top: -150px;
+     }
+     .words_from_leprechaum {
+          font-size: 20px;
+     }
+     .leprechaum_words {
+          right: 50px;
+          max-width: 80%;
+     }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+     .footer_all {
+          flex-direction: column-reverse;
+     }
+     .img_footer {
+          width: 50%;
+          height: auto;
+     }
+     .p_footer {
+          font-size: 24px;
+          margin-top: 20px;
+          text-align: center;
+     }
+     .footer_text {
+          font-size: 13px;
+     }
+     .down_pages_btn {
+          font-size: 28px;
+          padding: 15px 15px;
+     }
+     .main_h1 {
+          font-size: 35px;
+     }
+     .h2_team {
+          font-size: 24px;
+     }
+     .lep_team {
+          width: 50%;
+          height: auto;
+     }
+     .lep_top_left {
+          margin-left: -15%;
+          margin-bottom: 200px;
+     }
+     .lep_top_right {
+          margin-right: -15%;
+          margin-bottom: 200px;
+     }
+     .team_text_right, .team_text_left {
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-top: 80px;
+     }
+     .h1_pink_team {
+          font-size: 30px;
+     }
+     .button_rectangle {
+          font-size: 24px;
+     }
+}

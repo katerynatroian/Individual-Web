@@ -1,0 +1,294 @@
+body, .footer {
+    background-color: #FEE9F3;
+    max-width: 1440px;
+}
+
+.container_head {
+    max-width: 1020px;
+}
+
+.header_top {
+    height: auto;
+    margin-bottom: 24px;
+}
+
+
+/*налаштування форми для депозиту*/
+.main_deposit, .main_protect, .main_investment, .main_credit   {
+    max-width: 1440px;
+}
+
+.main_deposite-h1, .main_credit-h1, .main_protect-h1, .main_investment-h1 {
+    color: #F02786;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-family: 'UAF Memory', sans-serif;
+    margin-top: 15px;
+}
+
+.from_deposit, .results, .from_credit, .from_protect, .from_investment {
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: 'UAF Memory', sans-serif;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-left: 6.5%;
+}
+
+.from_deposit input, .from_credit input, .from_protect input, .from_investment input, select{
+    height: 40px;
+    border-bottom: 4px solid #000000;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-family: 'UAF Memory', sans-serif;
+}
+
+input:focus, select:focus {
+    border-bottom: 4px solid #F02786;
+    transition: border-bottom-color 0.3s;
+}
+
+.from_deposit label, .from_credit label, .from_protect label, .from_investment label {
+    margin-bottom: 10px;
+}
+
+.from_deposit_div, .from_credit_div, .from_protect_div, .from_investment_div {
+    margin-bottom: 30px;
+}
+
+/*відступи у input у 1 сторінці**/
+.input_name {
+    width: 60%;
+    margin-left: 3%;
+}
+
+.input_deposit {
+    width: 20%;
+    margin-left: 4%;
+}
+
+.input_duration {
+    width: 20%;
+    margin-left: 8%;
+}
+
+.input_rate {
+    width: 20%;
+    margin-left: 1%;
+}
+
+.button_rectangle {
+    border: 5px solid #000000;
+    width: 25%;
+    padding: 0;
+    border-radius: 100px;
+    margin-left: 30%;
+}
+
+.results {
+    margin-top: 3%;
+}
+
+/*відступи у input у 2 сторінці*/
+.input_name {
+    margin-left: 2%;
+}
+
+.input_job {
+    margin-left: 18%;
+}
+
+.input_coins, .input_savings, .input_realty, .input_comeback {
+    margin-left: 3%;
+}
+
+.input_box {
+    margin-left: 24%;
+}
+
+.CreditButton {
+    margin-left: 24%;
+    width: 40%;
+}
+
+/*відступи у input у 3 сторінці*/
+.input_gold_coins {
+    margin-left: 32%;
+}
+
+.input_gold {
+    margin-left: 20%;
+}
+
+.input_green {
+    margin-left: 18%;
+}
+
+.input_date_protect {
+    margin-left: 14%;
+}
+
+.ProtectButton {
+    margin-left: 23%;
+    width: 40%;
+}
+
+/*відступи у input у 4 сторінці*/
+.select_bank_name {
+    margin-left: 14%;
+}
+
+.input_gold_invest {
+    margin-left: 10%;
+}
+
+.select_home {
+    margin-left: 6%;
+}
+
+.InvestmentButton {
+    margin-left: 22%;
+    width: 40%;
+}
+
+
+.results_Invest_amount {
+    border-bottom: 4px solid #000000;
+}
+
+.results_totalAmount, .results_profit, .results_answer, .results_comeback_date, .results_credit_amount, .results_credit_day {
+    margin-left: 24%;
+    border-bottom: 4px solid #000000;
+    width: 20%;
+}
+
+.results_profit, .results_comeback_date, .results_credit_amount, .results_credit_day {
+    margin-left: 8%;
+}
+
+.results_deposit_div_1, .results_credit_div_1, .results_credit_div_1 {
+    margin-bottom: 4%;
+}
+
+.results_deposit_div_2, .results_credit_div_2, .results_credit_div_2 {
+    margin-bottom: 16%; 
+}
+
+.results_Invest_div_1  {
+    width: 80%;
+    text-align: center;
+}
+
+
+
+
+
+/*Адаптив планшет*/
+@media screen and (max-width: 1024px)
+{
+    .main_deposite-h1, .main_credit-h1, .main_protect-h1, .main_investment-h1 {
+        font-size: 46px;
+    }
+    .from_deposit, .results, .from_credit, .from_protect, .from_investment {
+        font-size: 24px;
+    }
+    .from_deposit input, .from_credit input, .from_protect input, .from_investment input, select {
+        font-size: 18px;
+    }
+    /*Депозит*/
+    .input_name {
+        width: 50%;
+        margin-left: 3%;
+    }
+    /*Кредит*/
+    .input_name {
+        width: 40%;
+    }
+    
+    .input_job, .input_coins, .input_savings, .input_realty, .input_comeback, .input_box {
+        width: 20%;
+    }
+    /*Захист*/
+    .input_gold_coins, .input_gold, .input_green, .input_date_protect {
+        width: 20%;
+    }
+    /*Інвестиції*/
+    .select_bank_name, .input_gold_invest, .select_home {
+        width: 20%;
+    }
+
+    .results_totalAmount, .results_profit, .results_answer, .results_comeback_date, .results_credit_amount, .results_credit_day {
+        margin-left: 16%;
+    }
+    .results_profit, .results_comeback_date, .results_credit_amount, .results_credit_day {
+        margin-left: 6%;
+    }
+}
+
+
+
+/*Адаптив телефон*/
+@media screen and (max-width: 700px)
+{
+    .main_deposite-h1, .main_credit-h1, .main_protect-h1, .main_investment-h1 {
+        font-size: 38px;
+    }
+    .from_deposit, .results, .from_credit, .from_protect, .from_investment {
+        font-size: 16px;
+    }
+    .from_deposit input, .from_credit input, .from_protect input, .from_investment input, select{
+        font-size: 12px;
+    }
+
+    /*Депозит*/
+    .input_name {
+        width: 30%;
+    }
+    
+    .input_deposit, .input_duration, .input_rate {
+        width: 15%;
+    }
+    .button_rectangle {
+        width: 40%;
+    }
+    /*Кредит*/
+    .input_name, .input_job, .input_coins, .input_savings, .input_realty, .input_comeback, .input_box {
+        width: 15%;
+    }
+    
+    .CreditButton {
+        margin-left: 18%;
+        width: 60%;
+    }
+    /*Захист*/
+    .input_gold_coins, .input_gold, .input_green, .input_date_protect {
+        width: 15%;
+    }
+    
+    .ProtectButton {
+        margin-left: 18%;
+        width: 60%;
+    }
+
+    /*Інвестиції*/
+    .select_bank_name, .input_gold_invest, .select_home {
+        width: 15%;
+    }
+    
+    .InvestmentButton {
+        margin-left: 12%;
+        width: 60%;
+    }
+
+    .results_totalAmount, .results_profit, .results_answer, .results_comeback_date, .results_credit_amount, .results_credit_day {
+        margin-left: 4%;
+    }
+    .results_profit, .results_comeback_date, .results_credit_amount, .results_credit_day {
+        margin-left: 2%;
+    }
+}

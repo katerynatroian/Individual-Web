@@ -1,0 +1,437 @@
+/* main page */
+.main {
+    display: flex;
+    max-width: 1440px;
+    background-color: rgba(240, 39, 134, 0.1);
+}
+.main_white {
+    display: flex;
+    max-width: 1440px;
+    background-color: white;
+}
+.main_sec {
+    margin: 0 auto; 
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.main_h1 {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    letter-spacing: 8px;
+    font-style: italic;
+    color: black;
+    font-family: var(--font_add);
+}
+.container_main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.main_page_main_centre {
+    margin-left: -100px;
+}
+.circle {
+    width: 366px; 
+    height: 366px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: white; 
+    z-index: 1;
+}
+.c_left {
+    margin-left: 5%;
+}
+.c_right {
+    margin-left: -10%;
+}
+.rectangle {
+    display: flex;
+    width: 941px; 
+    height: 315px; 
+    border-radius: 40px; 
+    background-color: var(--color-pink);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.r_left {
+    margin-left: 5%;
+}
+.r_right {
+    margin-left: -10%;
+}
+.h2_main {
+    color: black;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-family: 'UAF Memory', sans-serif;
+    font-weight: bold;
+    max-width: 700px;
+}
+.h2_main_left {
+    margin-left: -100px;
+}
+.h2_main_right {
+    margin-left: 100px;
+}
+.button_rectangle {
+    padding: 15px 60px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: var(--font_add);
+    background-color: #E3EEEA;
+    border-radius: 30px;
+    margin-top: 30px;
+    a {
+        color: black;
+    }
+}
+.button_rectangle:hover {
+    background-color: #C4C6C5;
+}
+
+/* services page */
+.leprechaum_words_in_frame {
+    display: flex;
+    height: auto;
+    position: relative;
+    justify-content: flex-end; 
+    margin-right: 50px;
+}
+.leprechaum_words {
+    display: flex;
+    position: absolute;
+    color: black;
+    right: 100px;
+    top: 40px;
+    text-align: right;
+    flex-wrap: wrap;
+    max-width: 51%;
+}
+.words_from_leprechaum {
+    font-family: 'UAF Memory', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.span-pink-text {
+    color: var(--color-pink);
+}
+.leprechaum_words_in_frame:hover {
+    transform: scale(1.1);
+}
+.leprechaum_talking {
+    margin-top: -300px;
+}
+.circle-btn {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.circle-btn:hover {
+    background-color: var(--color-pink);
+}
+.for_centre_btn {
+    display: flex;
+    justify-content: center
+}
+.main_h1_arrow {
+    margin-top: 200px;
+}
+.rectangle_services {
+    display: flex;
+    border-radius: 40px; 
+    background-color: var(--color-pink);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    max-width: 85%;
+    box-shadow: 0px 10px 15px #ae8e9d;
+}
+.circle_top {
+    flex-direction: column;
+}
+.c_top_left {
+    margin-left: -45%;
+}
+.c_top_right {
+    margin-left: 45%;
+}
+.text_right {
+    margin-left: 40%;
+}
+.text_left {
+    margin-right: 40%;
+}
+.r_bottom {
+    margin-top: -220px;
+    padding: 50px 10px;
+}
+.h2_services {
+    flex-wrap: wrap;
+    font-size: 32px;
+    font-family: 'UAF Memory', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    max-width: 80%;
+}
+.color_black {
+    color: black;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.color_green {
+    color: #2DE454;
+    margin-bottom: 40px;
+}
+.color_white {
+    color: white;
+    margin-bottom: 20px;
+}
+.h1_black_services {
+    color: black;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-family: 'UAF Memory', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+.h1_black_services_lower {
+    margin-bottom: 110px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.down_pages_btn {
+    font-family: 'UAF Memory', sans-serif;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 20px 20px;
+    max-width: 60%;
+    background-color: white;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    box-shadow: 0px 5px 3px #ae8e9d;
+}
+.down_pages_btn:hover {
+    background-color: #FF81BD;
+}
+/* team page */
+.rectangle_team {
+    display: flex;
+    border-radius: 40px; 
+    background-color: white;
+    text-align: center;
+    align-items: flex-end;
+    position: relative;
+    flex-direction: column;
+    max-width: 85%;
+    z-index: 0;
+}
+.lep_top_left {
+    margin-left: -55%;
+}
+.lep_top_right {
+    margin-left: 55%;
+}
+.lep_team {
+    position: relative;
+    z-index: 1;
+}
+.r_bottom_team {
+    margin-top: -420px;
+    padding: 30px 10px;
+}
+.h1_pink_team {
+    color: var(--color-pink);
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-family: 'UAF Memory', sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.h2_team {
+    color: black;
+    flex-wrap: wrap;
+    font-size: 32px;
+    font-family: 'UAF Memory', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.team_text_right {
+    text-align: right;
+    padding-left: 400px;
+    padding-right: 30px;
+}
+.team_text_left {
+    text-align: left;
+    padding-right: 380px;
+    padding-left: 30px;
+}
+.pink_text_lower {
+    margin-top: 20px;
+}
+.text_right_team {
+    margin-right: 20px;
+}
+.text_stars_team {
+    font-family: 'UAF Memory', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 50px 50px;
+    max-width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 5px #ae8e9d;
+}
+.text_plus_stars {
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    align-items: flex-start;
+}
+.stars_team {
+    margin-top: -130px;
+    margin-bottom: -300px;
+    margin-left: -77%;
+    z-index: 1;
+    position: relative;
+}
+
+/* history page */
+.container_main_history_stars_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.container_main_history_stars_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.stars_history_left {
+    margin-left: -68%;
+    margin-bottom: -85px;
+    z-index: 1;
+    position: absolute;
+}
+.stars_history_right {
+    margin-left: 68%;
+    margin-top: 400px;
+    z-index: 1;
+    position: absolute; 
+}
+.rectangle_history {
+    border-radius: 40px; 
+    background-color: white;
+    position: relative;
+    max-width: 75%;
+    z-index: 0;
+    margin-top: 100px;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    box-shadow: 0px 3px 5px #ae8e9d;
+}
+.text_stars_history_right {
+    text-align: right;
+    margin-left: 12%;
+}
+.text_stars_history_left {
+    text-align: left;
+    margin-left: 5%;
+}
+.c_history {
+    padding: 20px 20px;
+    border-radius: 30px; 
+    overflow: hidden;
+    justify-content: center; 
+    background-color: white; 
+    position: relative;
+    z-index: 1;
+}
+.rectangle_history_text_with_gradient {
+    display: flex;
+    border-radius: 40px; 
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    max-width: 85%;
+    box-shadow: 0px 10px 15px #908f90;
+}
+.history_text_lower {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+
+
+.container_green_pink {
+    margin-bottom: 200px;
+    overflow: visible;
+}
+
+.absolute {
+    top: 50px;
+    inset: 0;
+    justify-content: center;
+    display: flex;
+    max-width: fit-content;
+    margin-top: 400px;
+}
+.justify-centre {
+    justify-content: center;
+}
+.bg-shape {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    opacity: .5;
+}
+.green-one {
+    background-color: #0D3A29;
+    filter: blur(200px);
+}
+.pink_one {
+    background-color: var(--color-pink);
+    filter: blur(200px);
+    margin-top: 250px;
+}
+.pink-green_content_upper {
+    margin-top: -1250px;
+    
+}

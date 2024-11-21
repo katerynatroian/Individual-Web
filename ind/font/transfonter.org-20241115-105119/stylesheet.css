@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UAF Memory';
+    src: url('UAFMemory-Regular.woff2') format('woff2'),
+        url('UAFMemory-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
